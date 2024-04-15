@@ -53,6 +53,8 @@ The HTML structure includes input fields for search queries and filtering option
 - The application dynamically updates displayed brewery information based on user input.
 - Error messages are displayed to users in case of issues during the search or filtering process.
 
+## expected challenges
+was not able to filter by city  and state 
 ## License
 
 This project is licensed under the MIT License
