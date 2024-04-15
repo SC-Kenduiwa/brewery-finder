@@ -1,0 +1,80 @@
+/* Define the color scheme */
+:root {
+    --primary-color: #007bff; /* Blue */
+    --secondary-color: #6c757d; /* Gray */
+    --success-color: #28a745; /* Green */
+    --danger-color: #dc3545; /* Red */
+    --warning-color: #f3d270; /* Yellow */
+    --info-color: #17a2b8; /* Teal */
+    --light-color: #f8f9fa; /* Light gray */
+    --dark-color: #343a40; /* Dark gray */
+}
+body {
+    background-color: #f8f9fa; /* Light gray */
+}
+header {
+    background-color: #f3d270;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: #ffa500;
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: rgb(228, 235, 235);
+}
+.container {
+    margin-top: 50px;
+}
+
+h1.text-center {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+/* Style for the search box */
+#search-input {
+    width: 70%;
+    margin-right: 10px;
+    /* Add some space between the search box and the button */
+}
+
+/* Center the search button */
+#search-button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Center the radio buttons */
+.form-check {
+    text-align: center;
+    border-color: var(--secondary-color);
+}
+
+/* Adjust spacing between radio buttons */
+.form-check-inline {
+    margin-right: 10px;
+    /* Add some space between radio buttons */
+}
+
+.card-img-top {
+    height: 200px;
+    /* Adjust the height of the card image as needed */
+    object-fit: cover;
+}
+.card-body {
+    background-color: #9ddaca; 
+}
+/*background-color: #9ddaca;
