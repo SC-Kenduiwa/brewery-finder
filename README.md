@@ -55,6 +55,8 @@ The HTML structure includes input fields for search queries and filtering option
 
 ## expected challenges
 was not able to filter by city  and state 
+intergrating pages through multiple pages
+user authentication
 ## License
 
 This project is licensed under the MIT License
